@@ -3,8 +3,8 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = 'https://fb36-2409-40d0-a-b243-9a79-6abc-cc6-9c2a.ngrok-free.app';
-    var PORT = 8080;
+    var PEER_SERVER = 'https://peerjs-server-gxpp.onrender.com/';
+    var PORT = 10000;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
     var peer;
