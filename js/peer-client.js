@@ -3,7 +3,7 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = 'peerjs-server-gxpp.onrender.com';
+    var PEER_SERVER = 'peerjs-server-m97h.onrender.com';
     var PORT = 443;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
