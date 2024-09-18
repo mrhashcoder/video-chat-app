@@ -168,7 +168,6 @@ peerapp = (function() {
             // Create 2 connections, one labelled chat and another labelled file.
             var c = peer.connect(requestedPeer, {
                 label: 'chat',
-                serialization: 'none',
                 metadata: { message: 'hi i want to chat with you!' }
             });
             c.on('open', function() {
